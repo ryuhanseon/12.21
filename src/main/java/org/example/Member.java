@@ -15,8 +15,6 @@ public class Member {
     private String password;
     private String passwordConfirm;
 
-    public String getUseId(){
-        return this.userId;
-    }
+
 
 }
