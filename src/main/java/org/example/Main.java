@@ -159,7 +159,7 @@ public class Main {
                     System.out.println("해당 작성자만 삭제가 가능합니다.");
                     continue;
                 }
-                cookingList.remove(deleteId);
+                cookingList.remove(cooking);
 
 
             } else if (command.equals("수정")) {
@@ -193,7 +193,7 @@ public class Main {
                 int time = Integer.parseInt(sc.nextLine());
                 System.out.println("시간이 수정되었습니다.");
 
-                System.out.printf("기존난이도: %s \n", cooking.getDifficulty());
+                System.out.printf("기존난이도: %s \n", cooking.getTime());
                 String difficulty = sc.nextLine();
                 System.out.println("난이도가 수정되었습니다.");
 
